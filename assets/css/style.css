@@ -65,7 +65,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 48px;
   margin: 0;
   padding: 0;
-  line-height: 1;
+  line-height: 1.5;
   font-weight: 700;
   font-family: "Poppins", sans-serif;
 }
@@ -129,7 +129,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Header Top */
 #header.header-top {
   height: 80px;
-  position: fixed;
+  position: sticky;
   left: 0;
   top: 0;
   right: 0;
@@ -157,6 +157,43 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 26px;
   }
 }
+
+/* --------------------------------- */
+/* HEADER TEXT ANIMATION */
+/* --------------------------------- */
+
+@import url(https://fonts.googleapis.com/css?family=Khula:700);
+body {
+  background: #111;
+}
+.hidden {
+  opacity:0;
+}
+.console-container {
+ 
+  font-family:Khula;
+  font-size:2.5em;
+  text-align:left;
+  height:80px;
+  width:460px;
+  display:block;
+  position:relative;
+  color:white;
+  top: 10px;;
+  bottom:0;
+  left:0;
+  right:0;
+  /* margin:auto; */
+}
+.console-underscore {
+   display:inline-block;
+  position:relative;
+  top:-0.14em;
+  left:10px;
+}
+
+
+
 
 /*--------------------------------------------------------------
 # Navigation Menu
