@@ -151,9 +151,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media (max-width: 768px) {
   #header.header-top {
-    height: 60px;
-    background: rgba(255, 255, 255, 0.1);
-
+    height: 100px;
+    align-items: inherit;
+  }
+  #header.header-top .console-container {
+    display:none;
   }
   #header.header-top h1 {
     font-size: 26px;
@@ -318,7 +320,7 @@ body {
   padding: 10px 0;
   overflow-y: auto;
   transition: 0.3s;
-  border: 2px solid rgba(255, 255, 255, 0.2);
+  /* border: 2px solid rgba(255, 255, 255, 0.2); */
 }
 .navbar-mobile li {
   padding: 12px 20px;
@@ -331,6 +333,9 @@ body {
   position: relative;
 }
 
+.navbar-mobile .console-container {
+
+}
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
