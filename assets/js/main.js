@@ -246,7 +246,7 @@
 
 
   // function([string1, string2],target id,[color1,color2])    
-  consoleText(['Software Engineer', 'Strategic Partner', 'Product Manager', 'Product Marketer', 'Unicorn'], 'text',['tomato','rebeccapurple','lightblue', '#18d26e', '#FFF933 ', '#FF33C7']);
+  consoleText(['Software Engineer', 'Strategic Partner', 'Product Marketer', 'Product Manager', 'Software Engineer', 'Artist', 'Unicorn'], 'text',['tomato','#944FFF','lightblue', '#18d26e', '#FFF933 ', '#FF33C7']);
 
   function consoleText(words, id, colors) {
     if (colors === undefined) colors = ['#fff'];
@@ -271,7 +271,7 @@
           target.setAttribute('style', 'color:' + colors[0])
           letterCount += x;
           waiting = false;
-        }, 500)
+        }, 300)
       } else if (letterCount === words[0].length + 1 && waiting === false) {
         waiting = true;
         window.setTimeout(function() {
