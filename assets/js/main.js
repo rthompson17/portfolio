@@ -246,7 +246,7 @@
 
 
   // function([string1, string2],target id,[color1,color2])    
-  consoleText(['Software Engineer', 'Strategic Partner', 'Product Marketer', 'Product Manager', 'Software Engineer', 'Artist', 'Unicorn'], 'text',['tomato','#944FFF','lightblue', '#18d26e', '#FFF933 ', '#FF33C7']);
+  consoleText(['Software Engineer', 'Strategic Partner', 'Product Marketer', 'Artist', 'Unicorn'], 'text',['tomato','#944FFF','lightblue', '#18d26e', '#FFF933 ', '#FF33C7']);
 
   function consoleText(words, id, colors) {
     if (colors === undefined) colors = ['#fff'];
